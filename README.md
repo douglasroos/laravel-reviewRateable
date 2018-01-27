@@ -1,6 +1,6 @@
-[![Latest Stable Version](https://poser.pugx.org/trexology/reviewrateable/v/stable)](https://packagist.org/packages/trexology/reviewrateable)
-[![Total Downloads](https://poser.pugx.org/trexology/reviewrateable/downloads)](https://packagist.org/packages/trexology/reviewrateable)
-[![Latest Unstable Version](https://poser.pugx.org/trexology/reviewrateable/v/unstable)](https://packagist.org/packages/trexology/reviewrateable) [![License](https://poser.pugx.org/trexology/reviewrateable/license)](https://packagist.org/packages/trexology/reviewrateable)
+[![Latest Stable Version](https://poser.pugx.org/turiguia/reviewrateable/v/stable)](https://packagist.org/packages/turiguia/reviewrateable)
+[![Total Downloads](https://poser.pugx.org/turiguia/reviewrateable/downloads)](https://packagist.org/packages/turiguia/reviewrateable)
+[![Latest Unstable Version](https://poser.pugx.org/turiguia/reviewrateable/v/unstable)](https://packagist.org/packages/turiguia/reviewrateable) [![License](https://poser.pugx.org/turiguia/reviewrateable/license)](https://packagist.org/packages/turiguia/reviewrateable)
 
 # Laravel ReviewRateable
 ReviewRateable system for laravel 5
@@ -10,20 +10,20 @@ ReviewRateable system for laravel 5
 First, pull in the package through Composer.
 
 ```js
-composer require trexology/reviewrateable
+composer require turiguia/reviewrateable
 ```
 
 And then include the service provider within `app/config/app.php`.
 
 ```php
 'providers' => [
-    Trexology\ReviewRateable\ReviewRateableServiceProvider::class
+    Turiguia\ReviewRateable\ReviewRateableServiceProvider::class
 ];
 ```
 
 At last you need to publish and run the migration.
 ```
-php artisan vendor:publish --provider="Trexology\ReviewRateable\ReviewRateableServiceProvider" && php artisan migrate
+php artisan vendor:publish --provider="Turiguia\ReviewRateable\ReviewRateableServiceProvider" && php artisan migrate
 ```
 
 -----
@@ -34,8 +34,8 @@ php artisan vendor:publish --provider="Trexology\ReviewRateable\ReviewRateableSe
 
 namespace App;
 
-use Trexology\ReviewRateable\Contracts\ReviewRateable;
-use Trexology\ReviewRateable\Traits\ReviewRateable as ReviewRateableTrait;
+use Turiguia\ReviewRateable\Contracts\ReviewRateable;
+use Turiguia\ReviewRateable\Traits\ReviewRateable as ReviewRateableTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model implements ReviewRateable
