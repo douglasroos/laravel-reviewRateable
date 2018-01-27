@@ -1,6 +1,6 @@
 <?php
 
-namespace Trexology\ReviewRateable\Contracts;
+namespace Turiguia\ReviewRateable\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 

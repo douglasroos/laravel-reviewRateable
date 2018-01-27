@@ -1,8 +1,8 @@
 <?php
 
-namespace Trexology\ReviewRateable\Traits;
+namespace Turiguia\ReviewRateable\Traits;
 
-use Trexology\ReviewRateable\Models\Rating;
+use Turiguia\ReviewRateable\Models\Rating;
 use Illuminate\Database\Eloquent\Model;
 
 trait ReviewRateable

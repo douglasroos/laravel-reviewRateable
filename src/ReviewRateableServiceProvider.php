@@ -1,6 +1,6 @@
 <?php
 
-namespace Trexology\ReviewRateable;
+namespace Turiguia\ReviewRateable;
 
 use Illuminate\Support\ServiceProvider;
 
